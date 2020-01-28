@@ -1,5 +1,6 @@
-# Basic Out-of-processes Python job scheduler
+# Schedaddle
 
+A simple out-of-processes Python job scheduler.
 
 ## Running the scheduler
 
