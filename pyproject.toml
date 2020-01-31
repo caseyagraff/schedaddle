@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "schedaddle"
+version = "0.1.0"
+description = ""
+authors = ["Casey Graff <caseyagraff@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+sanic = "^19.12.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pre-commit = "^2.0.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
