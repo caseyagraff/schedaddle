@@ -13,7 +13,7 @@ A simple out-of-processes Python job scheduler.
     Send the jobs listed in <job_file> to the scheduler.
 
     The expected format of `<job_file>` is one job per line:
-        
+
         `python test_job.py`
 
     You may proved a file to save the job's output to by adding a path after a comma:
@@ -26,5 +26,5 @@ A simple out-of-processes Python job scheduler.
     * `python server.py 2`
     * `python sender.py test_jobs.txt`
 
-    This will start a server with two workers and then run three jobs, each of which 
+    This will start a server with two workers and then run three jobs, each of which
     print a message. The third job (job c) will be saved to the file job_c.out.
